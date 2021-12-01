@@ -8,3 +8,4 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 console.log("Hi")
+alert("Hi")
