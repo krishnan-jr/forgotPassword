@@ -7,3 +7,4 @@ document.addEventListener('DOMContentLoaded', function () {
         alert("hi")
     }
 
+console.log("Hi")
