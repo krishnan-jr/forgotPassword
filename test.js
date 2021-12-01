@@ -1,15 +1,9 @@
-function printpage() {var printButton = document.getElementById("printpagebutton");
-                var e = document.getElementById("operations");
-              var textarea = document.getElementById("idName");
-              var textareastufftext = document.getElementById("txtStuffText");
-              var textareastufftext2 = document.getElementById("txtStuffText2");
-              e.style.visibility = `hidden`;
-              printButton.style.visibility = `hidden`;
-              textarea.style.border = `none`;
-              textareastufftext.style.border = `none`;
-              textareastufftext2.style.border = `none`;
-              window.print();
-              window.close();
-              e.style.visibility = `visible`;
-              printButton.style.visibility = `visible`;
-              };
+document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById("printpagebutton").addEventListener('click', clickHandler);
+
+    });
+
+    function clickHandler(element) {
+        alert("hi")
+    }
+
