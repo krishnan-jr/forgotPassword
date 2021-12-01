@@ -1,11 +1,6 @@
-document.addEventListener('DOMContentLoaded', function () {
-      document.getElementById("printpagebutton").addEventListener('click', clickHandler);
-
-    });
-
-    function clickHandler(element) {
-        alert("hi")
-    }
+document.getElementById("printpagebutton").addEventListener("click", function() {
+alert("hi")
+});
 
 console.log("Hi")
 alert("Hi")
